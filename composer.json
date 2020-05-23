@@ -1,0 +1,29 @@
+{
+    "name": "empatisoft/pdo",
+    "type": "library",
+    "description": "PDO ile yazılmış olan bu ufak veritabanı sınıfı ile tüm ihtiyaçlarınızı kolaylıkla karşılayabilirsiniz.",
+    "keywords": ["pdo", "empatisoft", "php", "mysql", "database", "veritabanı"],
+    "homepage": "https://empatisoft.com",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/empatisoft/pdo/issues",
+        "source": "https://github.com/empatisoft/pdo"
+    },
+    "authors": [
+        {
+            "name": "Onur KAYA",
+            "email": "empatisoft@gmail.com",
+            "homepage": "https://empatisoft.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.40",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Empatisoft\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
